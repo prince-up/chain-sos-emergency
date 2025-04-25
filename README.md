@@ -1,5 +1,73 @@
-# chain-sos-emergency
-ChainSOS fits perfectly into the ETHIndia Ethereum Track by leveraging the power of Ethereum's blockchain to create a decentralized, secure, and transparent emergency response system. By utilizing Ethereum smart contracts and wallet integration, ChainSOS ensures that all SOS alerts are verified, time-stamped, and immutable, 
-ChainSOS fits perfectly into the ETHIndia Ethereum Track by leveraging the power of Ethereum's blockchain to create a decentralized, secure, and transparent emergency response system. By utilizing Ethereum smart contracts and wallet integration, ChainSOS ensures that all SOS alerts are verified, time-stamped, and immutable, guaranteeing accountability and trust in emergency situations. The use of blockchain for location tracking, responder verification, and real-time alert notifications aligns with the decentralized ethos of Ethereum, while contributing to real-world, impactful use cases in public safety and security.
+# ChainSOS - Instant Onchain Emergency Help Network
 
-ChainSOS fits into the Groq track by harnessing the power of blockchain technology to create a high-performance, scalable emergency response system. Groq's advanced hardware acceleration could significantly enhance the real-time data processing and geolocation tracking aspects of ChainSOS. With Groq's computational capabilities, the system could process numerous simultaneous emergency alerts, update location markers in real-time, and handle blockchain transactions efficiently. This ensures that each alert is verified and resolved without lag, improving both the user experience and the responsiveness of verified responders. Groq’s hardware optimization aligns with ChainSOS's goal of providing immediate, reliable, and secure assistance in emergency situations.
+ChainSOS is a decentralized emergency response system built on Base that connects people in need with verified responders through blockchain technology.
+
+## Features
+
+- 🚨 One-Tap SOS Alerts
+- 🗺️ Real-Time Location Sharing
+- 🔐 Verified Responders
+- ⛓️ Onchain Activity Logging
+- 🏅 Responder Rewards System
+- 🌍 Interactive Emergency Map
+
+## Tech Stack
+
+- **Frontend**: Next.js, TailwindCSS
+- **Blockchain**: Base (Ethereum L2)
+- **Wallet Integration**: WalletConnect
+- **Maps**: Mapbox
+- **Backend**: Supabase
+- **Smart Contracts**: Solidity
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm or yarn
+- A Web3 wallet (MetaMask, etc.)
+- [WalletConnect](https://cloud.walletconnect.com/) Project ID
+- [Mapbox](https://www.mapbox.com/) Access Token
+
+### Environment Setup
+
+Create a `.env.local` file in the root directory:
+
+```env
+NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=your_walletconnect_project_id
+NEXT_PUBLIC_MAPBOX_TOKEN=your_mapbox_token
+NEXT_PUBLIC_CHAINSOS_ADDRESS=0x0000000000000000000000000000000000000000
+```
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/chainsos.git
+   cd chainsos
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Contributing
+
+We welcome contributions! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
